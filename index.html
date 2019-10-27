@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Configurator</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="sidebar" class="active">
+            <img src="images/cd-logo.png" alt="Coding Dojo Logo">
+            <h1>CAR CONFIGURATOR</h1>
+            <h2>OPTIONS</h2>
+            <h3>Exterior Color:</h3>
+            <ul>
+                <li class="blue selected"><img src="images/main-chip.png" alt="chip">Blue</li>
+                <li class="red"><img src="images/red-chip.png" alt="chip">Red</li>
+                <li class="orange"><img src="images/orange-chip.png" alt="chip">Orange</li>
+                <li class="green"><img src="images/green-chip.png" alt="chip">Green</li>
+                <li class="black"><img src="images/black-chip.png" alt="chip">Black</li>
+            </ul>
+            <h3>Wheels:</h3>
+            <ul>
+                <li class="wheel-1 selected"><img src="images/no-chip.png" alt="chip">Stock Wheels</li>
+                <li class="wheel-2"><img src="images/bbs.png" alt="chip">BBS RS-GT</li>
+                <li class="wheel-3"><img src="images/t-7.png" alt="chip">Titan 7 T-S5</li>
+            </ul>
+            <h3>Body Kit:</h3>
+            <ul>
+                <li class="kit-1 selected"><img src="images/no-chip.png" alt="chip">None</li>
+                <li class="kit-2"><img src="images/t-r.png" alt="chip">Type-R</li>
+            </ul>
+            <h3>Livery:</h3>
+            <ul>
+                <li class="liv-1 selected"><img src="images/no-chip.png" alt="chip">None</li>
+                <li class="liv-2"><img src="images/cdj-1.png" alt="chip">Coding Dojo</li>
+                <li class="liv-3"><img src="images/cdj-2.png" alt="chip">Dojo Ninja</li>
+            </ul>
+        </div>
+
+        <!-- INTERIOR SECTION -->
+
+        <div id="sidebar-interior" class="hidden">
+            <img src="images/cd-logo.png" alt="Coding Dojo Logo">
+            <h1>CAR CONFIGURATOR</h1>
+            <h2>OPTIONS</h2>
+            <h3>Seat Color:</h3>
+            <ul>
+                <li class="stock selected"><img src="images/black-chip.png" alt="chip">Stock Seats</li>
+                <li class="blue-interior"><img src="images/main-chip.png" alt="chip">Blue Seats</li>
+                <li class="red-interior"><img src="images/red-chip.png" alt="chip">Red Seats</li>
+                <li class="orange-interior"><img src="images/orange-chip.png" alt="chip">Orange Seats</li>
+                <li class="green-interior"><img src="images/green-chip.png" alt="chip">Green Seats</li>
+
+            </ul>
+            <h3>Trim Color:</h3>
+            <ul>
+                <li class="stock-trim selected"><img src="images/stock-chip.png" alt="chip">Stock Trim</li>
+                <li class="blue-trim"><img src="images/main-chip.png" alt="chip">Blue Trim</li>
+                <li class="red-trim"><img src="images/red-chip.png" alt="chip">Red Trim</li>
+                <li class="black-trim"><img src="images/black-chip.png" alt="chip">Black Trim</li>
+            </ul>
+            <h3>Infotainment:</h3>
+            <ul>
+                <li class="stock-package selected"><img src="images/no-chip.png" alt="chip">Stock</li>
+                <li class="tech-package"><img src="images/tech-chip.png" alt="chip">Tech Package</li>
+            </ul>
+
+        </div>
+
+        <!-- EXTRIOR SECTION -->
+
+        <div id="main">
+            <div id="main-top" class="active">
+                <div id="layer-4">
+                    <img src="images/blank.png" alt="kit">
+                </div>
+                <div id="layer-3">
+                    <img src="images/blank.png" alt="wheels">
+                </div>
+                <div id="layer-2">
+                    <img src="images/blank.png" alt="wheels">
+                </div>
+
+                <div id="car">
+
+                </div>
+            </div>
+
+            <!-- INTERIOR SECTION -->
+
+            <div id="main-top-interior" class="hidden">
+                <div id="layer-5">
+                    <img src="images/interior-stock.png" alt="kit">
+                </div>
+                <div id="layer-6">
+                    <img src="images/blank.png" alt="wheels">
+                </div>
+                <div id="layer-7">
+                    <img src="images/blank.png" alt="wheels">
+                </div>
+
+                <div id="car-interior">
+
+                </div>
+            </div>
+            <div id="main-mid">
+                <button id="interior" class="btn-int"></button>
+                <div id="info-box">
+                    <h4>About This Mini Project</h4>
+                    <p>
+                        jQuery Assignment – Learn basic functions and mess around with DOM elements. Previous lessons
+                        learned in CSS also applied. Stylesheet reset and normalized before custom one applied on load.
+                        Using jQuery 3.4.1 (min version, from Google CDN). Graphics, icons and buttons made in
+                        Photoshop.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

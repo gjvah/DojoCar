@@ -1,0 +1,213 @@
+body {
+	background-color: #e6e6e6;
+	font-family: 'Roboto', sans-serif;
+	/* -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; */
+}
+li {
+	margin-left: 10px;
+}
+h1 {
+	font-size: 17px;
+	text-align: center;
+	color: #8e8e8e;
+}
+h2 {
+	margin-top: 18px;
+	color: #06aae2;
+	font-weight: bold;
+	font-size: 16px;
+}
+#wrapper {
+	display: flex;
+	margin: 0 auto;
+	width: 970px;
+	background-color: white;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	margin-top: 20px;
+	border-radius: 20px;
+}
+#sidebar,
+#sidebar-interior {
+	display: block;
+	padding: 20px;
+	font-size: 12px;
+	background: rgb(223, 223, 223);
+	background: linear-gradient(270deg, rgba(223, 223, 223, 1) 0%, rgba(249, 254, 255, 1) 100%);
+	border-right: 1px solid grey;
+	width: 235px;
+	border-radius: 20px;
+}
+#sidebar h3,
+#sidebar-interior h3 {
+	color: gray;
+	font-size: 14px;
+	padding: 6px 0 5px 0;
+}
+#sidebar li,
+#sidebar-interior li {
+	cursor: pointer;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #8e8e8e;
+	border-left: 2px solid #e4e4e4;
+	line-height: 28px;
+}
+#sidebar li img,
+#sidebar-interior li img {
+	display: inline;
+	width: 19px;
+	padding-right: 9px;
+	margin-bottom: -5px;
+	margin-left: 4px;
+}
+#main {
+	display: block;
+	width: 100%;
+	position: relative;
+	background-image: url(images/main-bg-la.jpg);
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}
+#main-top {
+	display: block;
+	position: relative;
+	height: 425px;
+	width: 700px;
+	margin: 0 auto;
+}
+#main-top-interior {
+	display: block;
+	position: relative;
+	height: 425px;
+	width: 700px;
+	margin: 0 auto;
+}
+#car {
+	background: url(images/main-bg.png);
+	display: block;
+	margin: 0 auto;
+	width: 700px;
+	height: 425px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+#layer-2 {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+#layer-3 {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+#layer-4 {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 3;
+}
+#car-interior {
+	background: url(images/interior-bg.png);
+	display: block;
+	margin: 0 auto;
+	width: 700px;
+	height: 425px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+#layer-5 {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 4;
+}
+#layer-6 {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 5;
+}
+#layer-7 {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 6;
+}
+#main-mid {
+	display: block;
+	width: 725px;
+	margin: 0 auto;
+}
+.selected {
+	background: rgb(255, 255, 255);
+	background: linear-gradient(90deg, rgb(220, 220, 220) 0%, rgba(253, 187, 45, 0) 100%);
+	border-left: 4px solid #06aae2 !important;
+}
+.active {
+	display: block;
+}
+.hidden {
+	display: none !important;
+}
+button {
+	outline: none;
+}
+#interior {
+	display: block;
+	width: 379px;
+	height: 48px;
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.btn-int {
+	background-image: url(images/exterior.png);
+}
+.btn-ext {
+	background-image: url(images/interior.png);
+}
+#info-box {
+	display: block;
+	padding: 20px;
+	background: #e9ebec;
+	margin: 31px;
+	border-radius: 9px;
+	border: 1px solid #cecece;
+}
+#info-box p {
+	display: block;
+	font-size: 13px;
+	text-align: justify;
+	color: #7b7b7b;
+}
+h4 {
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	color: #797979;
+	padding-bottom: 16px;
+}
